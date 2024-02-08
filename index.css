@@ -4,7 +4,6 @@
     --clr-black: #1c1c1c;
     --clr-gray: #ececec;
     --clr-white: #f7f7f7;
-
     --type-normal: #A8A878;
     --type-fire: #F08030;
     --type-water: #6890F0;
@@ -50,11 +49,17 @@ button {
 body{
 min-height: 100vh;
 background-color: var(--clr-gray);
+font-family: 'Outfit', sans-serif;
+background-image: url(https://js-pokedex-virid.vercel.app/src/pokeball-icon.png);
+background-repeat: no-repeat;
+background-position-x: -180px;
+background-position-y: -30px;
+width: 100%
 }
+
 header{
     padding-block: 1rem;
     box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
-    background-color: var(--clr-white);
 }
 nav{
     display: flex;
@@ -101,6 +106,7 @@ main{
 @media screen and (min-width: 480px){
 .pokemon-todos{
     grid-template-columns: 1fr 1fr;
+}
 }
 @media screen and (min-width: 700px){
     .pokemon-todos{
@@ -188,7 +194,6 @@ font-size: .85rem;
 .busqueda{
     padding: 0;
     margin: 0;
-    
 }
 #searchInput {
     width: 15rem;
