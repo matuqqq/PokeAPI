@@ -1,2 +1,2 @@
 # PokeAPI
-trabajo hecho por matuwu247, siguiendo un tutorial para poder conectar la API, luego le realice independiente la paginacion y la busqueda personalizada 
+hecho siguiendo un tutorial para aprendear a realizar peticiones a la API
